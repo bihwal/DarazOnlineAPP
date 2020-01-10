@@ -8,11 +8,14 @@
     tools:context=".fragments.AccountFragment">
 
     <ImageView
+        android:id="@+id/imgLogintop"
         android:layout_width="match_parent"
         android:layout_height="190dp"
         android:src="@drawable/loginhead" />
 
     <TextView
+
+        android:id="@+id/finalMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SMS"
