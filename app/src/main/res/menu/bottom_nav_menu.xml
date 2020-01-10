@@ -17,5 +17,4 @@
         android:id="@+id/accountFragment"
         android:icon="@drawable/ic_person_black_24dp"
         android:title="Account" />
-
 </menu>

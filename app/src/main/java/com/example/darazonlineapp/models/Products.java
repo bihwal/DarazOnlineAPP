@@ -39,6 +39,13 @@ public class Products {
         this.product_image = product_image;
     }
 
+    public Products(String product_id, String product_name, String product_price, String product_image) {
+        this.product_id = product_id;
+        this.product_name = product_name;
+        this.product_price = product_price;
+        this.product_image = product_image;
+    }
+
     @Override
     public String toString() {
         return "tbl_product [product_id = "+product_id+", product_name = "+product_name+"," +
